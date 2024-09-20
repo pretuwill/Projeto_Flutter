@@ -54,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
                 Container(
                   margin: EdgeInsets.only(bottom: 40),
                   child: Image.asset(
-                    'assets/images/ilustracao-verde-sobre-inteligencia-artificial-ia-generativa_343887-456.avif',
+                    'assets/images/perfil.png',
                     height: 150,
                   ),
                 ),
