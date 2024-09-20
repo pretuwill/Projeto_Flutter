@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'iFriend',
       theme: ThemeData(
         primarySwatch: Colors.green,
@@ -53,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
                 Container(
                   margin: EdgeInsets.only(bottom: 40),
                   child: Image.asset(
-                    'assets/images/logo.png',
+                    'assets/images/ilustracao-verde-sobre-inteligencia-artificial-ia-generativa_343887-456.avif',
                     height: 150,
                   ),
                 ),
