@@ -54,12 +54,12 @@ class _LoginPageState extends State<LoginPage> {
                 Container(
                   margin: EdgeInsets.only(bottom: 40),
                   child: Image.asset(
-                    'assets/images/perfil.png',
+                    'assets/images/iFriend.png',
                     height: 150,
                   ),
                 ),
                 Text(
-                  'iFriend',
+                  '',
                   style: TextStyle(
                     color: Colors.green,
                     fontSize: 32,
