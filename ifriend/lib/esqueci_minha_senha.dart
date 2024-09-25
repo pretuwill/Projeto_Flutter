@@ -13,10 +13,11 @@ class _EsqueciMinhaSenhaPageState extends State<EsqueciMinhaSenhaPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Esqueci Minha Senha'),
-        backgroundColor: Colors.green,
+        title: Text('Esqueci Minha Senha',
+        style: TextStyle(color: Colors.green),),
+        backgroundColor: const Color.fromARGB(255, 59, 65, 71),
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: const Color.fromARGB(255, 24, 23, 23),
       body: Center(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16.0),

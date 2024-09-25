@@ -41,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color.fromARGB(255, 24, 23, 23),
       body: Center(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16.0),
@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                   margin: EdgeInsets.only(bottom: 40),
                   child: Image.asset(
                     'assets/images/iFriend.png',
-                    height: 150,
+                    height: 250,
                   ),
                 ),
                 Text(

@@ -6,18 +6,14 @@ class SobreNosPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Sobre Nós'),
-        backgroundColor: Colors.green,
+        backgroundColor: const Color.fromARGB(255, 59, 65, 71),
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: const Color.fromARGB(255, 24, 23, 23),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              'Sobre Nós',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-            ),
             SizedBox(height: 20),
             Text(
               'iFriend é uma aplicação desenvolvida para ajudar você a gerenciar suas tarefas e objetivos pessoais.',

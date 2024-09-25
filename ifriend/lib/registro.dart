@@ -43,10 +43,10 @@ class _RegistroState extends State<Registro> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: const Color.fromARGB(255, 24, 23, 23),
       appBar: AppBar(
         title: Text('Registrar-se'),
-        backgroundColor: Colors.green,
+        backgroundColor: const Color.fromARGB(255, 59, 65, 71),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
